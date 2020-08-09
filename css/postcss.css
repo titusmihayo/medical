@@ -1,0 +1,32 @@
+.post_table{
+	
+}
+.post_table tr{
+	
+}
+.post_table tr td{
+	padding: 10px;
+}
+.post_table tr th{
+	font-size: 16px;
+	padding: 10px;
+	font-family: sans serif;
+}
+tr td{
+	font-size: 18px;
+	font-family: sans serif;
+}
+tr td input[type=text]{
+	width: 100%;
+}
+tr td img{
+	width: 100px;
+	border:1px solid black;
+	padding: 2px;
+	border-radius: 5px;
+	float: left;
+	margin:5px;
+}
+table{
+	width: 100%;
+}

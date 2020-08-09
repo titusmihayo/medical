@@ -1,0 +1,51 @@
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 30%;
+  padding: 10px;
+  margin:0;
+  display: inline;
+  border: none;
+  background: #f1f1f1;
+  border:  1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #fff;
+  outline: none;
+  border: 1.4px solid grey;
+
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #d2d2d4;
+  color: black;
+  padding: 8px 5px;
+  margin: 8px;
+  border: 1px solid grey;
+  cursor: pointer;
+  opacity: 0.9;
+
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #e8e8e8;
+}
+.hdeletebutton{
+  color: #ff0000;
+  font-size: 18px;
+  border-radius:8px ;
+  padding: 6px 6px;
+  font-family: Arial;
+}
+.hsave{
+  color: #339900;
+  font-size: 18px;
+  border-radius:8px ;
+  padding: 6px 6px;
+  font-family: Arial;
+}

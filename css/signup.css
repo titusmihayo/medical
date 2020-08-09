@@ -1,0 +1,121 @@
+* {box-sizing: border-box}
+form{
+  width: 80%;
+}
+/* Full-width input fields */
+  input[type=text],input[type=number], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 22px 0;
+  display: block;
+  border: none;
+  background: #f1f1f1;
+  border:  1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type=text]:focus, input[type=password]:focus,input[type=number]:focus {
+  background-color: #fff;
+  outline: none;
+  border: 1.4px solid grey;
+
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #d2d2d4;
+  color: black;
+  padding: 8px 5px;
+  margin: 8px 0;
+  border: 1px solid grey;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+
+button:hover {
+  background-color: #e8e8e8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 8px 5px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn{
+  
+  border-radius: 8px;
+}
+
+
+/* Add padding to container elements */
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+.navbar{
+  background-color: #0049a3;
+}
+body {
+  padding-top: 50px;
+}
+footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    background:#ecf0f1;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -40%;
+  }
+
+  .row-offcanvas-left.active {
+    left: 40%;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 40%;
+    margin-left: 12px;
+  }
+
+
+#sidebar {
+    padding:15px;
+    margin-top:10px;
+}
+tr td,th {
+  font-size: 18px;
+}
